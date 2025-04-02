@@ -1,0 +1,69 @@
+.owl-carousel {
+    background: url('assets/imagejpgs/banner-01.') no-repeat center center/cover;
+    opacity: 0.9;
+    /* Adjust transparency (0 = fully transparent, 1 = fully opaque) */
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Full-screen background image section */
+.banner {
+    background: url('assets/imagejpgs/banner-01.') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Ensures content below isn't hidden under the fixed menu */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+element.style {
+    transition: all;
+    width: 8904px;
+    transform: translate3d(-2544px, 221px, 0px);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px; /* Adds space inside the card */
+    border-radius: 10px;
+    background: #fff;
+    height: 100%;
+    margin-bottom: 20px; /* Adds space between cards */
+  }
+  
+  .item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product-items {
+    padding-top: 10px; /* Small space at the top */
+    padding-bottom: 10px; /* Small space at the bottom */
+  }
+  
+ 
