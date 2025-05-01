@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dried Fruits</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#About Us">About Us</a>
+
+      <a href="#blog">Blog</a>
+      <a href="#footer">Contact us</a>
+    </div>
+    <div class="icons">
+      <i class="fas fa-user"></i>
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+    <button class="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>100% Natural, No Preservatives</h1>
+      <p>Fruits. Sliced. Dried. Packed. Anytime.</p>
+      <div class="buttons">
+        <a href="#" class="btn btn-primary">Shop Now</a>
+        <a href="#" class="btn btn-secondary">Explore</a>
+      </div>
+    </div>
+    <div> <a href="https://wa.me/+918830465518" class="whatsapp-float" target="_blank">
+      <span class="whatsapp-text">Click Here to Buy</span>
+      <div class="whatsapp-icon">
+        <i class="fab fa-whatsapp fa-4x"></i>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <!-- product-section................... -->
+
+  <section class="products-section" id="shop">
+    <div class="products-container">
+      <div class="section-content">
+        <h2>Fruit Slices</h2>
+        <p>
+          Enjoy thin fruit slices full of natural flavor. From sweet to sour, soft to juicy — every slice is a treat. Perfect for your sweet tooth, and made with real fruit only.
+        </p>
+        <a href="#" class="explore-btn">Explore</a>
+      </div>
+  
+      <div class="products-grid">
+        <div class="product-card" data-id="1">
+          <img src="product-1.jpg" alt="Pineapple" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-name">Pineapple</h3>
+            <p class="product-price">₹130</p>
+          </div>
+          <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i> Add to Cart
+          </button>
+        </div>
+        
+        <div class="product-card" data-id="2">
+          <img src="product-2.png" alt="Mango" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-name">Mango</h3>
+            <p class="product-price">₹200</p>
+          </div>
+          <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i> Add to Cart
+          </button>
+        </div> 
+        
+        <div class="product-card" data-id="3">
+          <img src="product-3.png" alt="Mango" class="product-image" />
+          <div class="product-info">
+            <h3 class="product-name">Chiku</h3>
+            <p class="product-price">₹200</p>
+          </div>
+          <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i> Add to Cart
+          </button>
+        </div> 
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- section-testimonial.................... -->
+
+  <section class="testimonial-section" id="About Us">
+    <h2 class="testimonial-title">About Us</h2>
+
+    <div class="testimonial-container">
+      <div class="testimonial-slide active">
+        <p class="testimonial-content">
+          "Bringing Tradition to Life Naturally For centuries, people have
+          dried fruits to preserve their natural goodness. We've embraced this
+          time-honored method and added a fresh, modern twist. Our treats are
+          made from 100% natural fruits with no added sugar, no preservatives,
+          and no artificial ingredients. Using a slow, gentle drying process
+          at low temperatures, we preserve the rich flavor, vibrant color, and
+          wholesome nutrients in every bite. Rediscover the joy of real food
+          pure, delicious, and just as nature intended. "
+        </p>
+
+        <div class="testimonial-image">
+          <img src="person_3.png" alt="Maria Jones" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- why-choose -us -->
+  <section class="why-choose-us" id="blog">
+    <div class="section-header">
+      <h2>Why Choose Us</h2>
+      <p>
+        We're committed to providing the best possible experience for our
+        customers through excellent service and wholesome, 100% natural food.
+      </p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon-wrapper">
+          <i class="fas fa-truck"></i>
+        </div>
+        <h3>Fast & Free Shipping</h3>
+        <p>
+          Enjoy quick and reliable delivery on all your orders with our
+          complimentary shipping service.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon-wrapper">
+          <i class="fas fa-shopping-bag"></i>
+        </div>
+        <h3>Easy to Shop</h3>
+        <p>
+          Browse our intuitive website and find exactly what you need with our
+          user-friendly interface.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+
+  <div class="container" id="footer">
+    <!-- Newsletter Section -->
+    <div class="newsletter">
+      <i class="far fa-envelope newsletter-icon"></i>
+      <h3 class="newsletter-title">Subscribe to Dried Fruits</h3>
+      <form class="newsletter-form">
+        <input type="text" class="form-input" placeholder="Enter your name" />
+        <input type="email" class="form-input" placeholder="Enter your email" />
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer">
+        <div class="footer-brand">
+          <!-- <h2>Furni.</h2> -->
+
+          <p>
+            We make it easy to enjoy dried fruits anytime, anywhere. Our
+            process is simple, our ingredients are 100% natural, and our goal
+            is to bring the real taste of fruit to your hands. Whether you
+            need a quick snack or a healthy treat, our dried fruits are a
+            perfect choice.
+          </p>
+
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/918830465518?text=Hello%20there!" class="social-link" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>About</h3>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#shop">Support</a></li>
+            <li><a href="#shop">Knowledge base</a></li>
+            <li><a href="#shop">Live chat</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Products</h3>
+          <ul>
+            <li><a href="#shop">Pineapple</a></li>
+            <li><a href="#shop">Mango</a></li>
+            <li><a href="#shop">Chiku</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Copyright ©2024. All Rights Reserved. — Designed with love by</p>
+        <div>
+          <a href="#">Terms & Conditions</a>
+          <span style="margin: 0 10px">|</span>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

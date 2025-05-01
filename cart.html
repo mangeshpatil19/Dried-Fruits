@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="cart.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="cart-title">Your Shopping Cart</h1>
+
+    <!-- Cart Table -->
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody id="cartTableBody">
+        <!-- Cart items will be dynamically inserted here -->
+      </tbody>
+    </table>
+
+    <!-- Cart Totals -->
+    <div class="cart-summary">
+      <div class="cart-totals">
+        <span>Total Price:</span>
+        <span id="totalPrice">$0.00</span>
+      </div>
+      <button id="checkoutBtn" class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <script src="cart.js"></script>
+</body>
+</html>
